@@ -1,28 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f44e871e-ca3a-490d-9e02-bd34fdeb214a" name="Default Changelist" comment="" />
+    <list default="true" id="f44e871e-ca3a-490d-9e02-bd34fdeb214a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Observer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/Artifacts/25/2587d546454213fce58cf2a91b904fe9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/Artifacts/43/43d85f6a02bb0f0ff3d5d623f1dd3586" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/Artifacts/45/45052349cfbddf662d8c3974c8cf76d2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/Artifacts/5c/5c46fd4dccc5e7da3bd3665b82aedeff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/Artifacts/5f/5fa969ec9bbd53ff1a25460720461d6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/Artifacts/9b/9b268bd4298cc9f5c0237b4b8fe76a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/Artifacts/a8/a887360c13a2b377531711764aac07cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/Artifacts/b9/b9a551233859a3e609c9021b694fee85" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/Artifacts/d5/d5d26ca8c83274e96a0320fe70bd3e39" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/Artifacts/e0/e076c61a377da134b5e3d45bc3dcea40" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/Artifacts/e1/e1f546f4c7e98faba333e750f2b1558e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/Artifacts/f7/f7f0157c671f0d6f97d3e3b85f35f38a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/Artifacts/fb/fb1031579742f1eb3dea49ce271f5a96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/Artifacts/fc/fc73928e2cb8dfcc299ed64201cbcf37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/StateCache/Hierarchy/13a3c7-a717d4236cb301d46b.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/StateCache/Hierarchy/13a3c7-a717d4236cb301d46b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/StateCache/Hierarchy/13a3c7-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/StateCache/Hierarchy/13a3c7-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/StateCache/SceneView/3440d8-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/StateCache/SceneView/3440d8-mainStage.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../New Unity Project/Assets/SpeedTutor Tutorial Scripts Package/Scripts/Slow_Down_Video/play.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Observer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../New Unity Project/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/t.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GameEnding.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Observer.cs" />
         <option value="$PROJECT_DIR$/WaypointPatrol.cs" />
         <option value="$PROJECT_DIR$/GameEnding.cs" />
         <option value="$PROJECT_DIR$/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Observer.cs" />
+        <option value="$PROJECT_DIR$/../../../../New Unity Project/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/test.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1jEDTjQhwqpz4i8lZINWUQJZI65" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -56,6 +108,9 @@
       <workItem from="1604126042068" duration="1237000" />
       <workItem from="1604132400722" duration="621000" />
       <workItem from="1604133379514" duration="449000" />
+      <workItem from="1604174139434" duration="822000" />
+      <workItem from="1604211747569" duration="1856000" />
+      <workItem from="1604306018805" duration="7580000" />
     </task>
     <servers />
   </component>
@@ -64,6 +119,18 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
@@ -83,14 +150,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/GameEnding.cs</url>
           <line>72</line>
-          <properties documentPath="D:\unity\John Lemon’s Haunted Jaunt\Assets\Scripts\GameEnding.cs" initialLine="61">
-            <startOffsets>
-              <option value="1607" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1608" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\unity\John Lemon’s Haunted Jaunt\Assets\Scripts\GameEnding.cs" initialLine="61" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

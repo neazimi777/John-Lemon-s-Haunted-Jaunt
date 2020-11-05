@@ -8,15 +8,21 @@ public class Observer : MonoBehaviour
     bool m_IsPlayerInRange;
    public GameEnding gameEnding;
 
+  // private void start()
+  //  {
+  //     // Debug.log(m_IsPlayerInRange);
+  //  }
  void OnTriggerEnter (Collider other)
     {
         if (other.transform == player)
         {
             m_IsPlayerInRange = true;
         }
+       // Debug.log(GameEnding gameEnding, );
     }
 void OnTriggerExit (Collider other)
     {
+       // Debug.log(player);
         if (other.transform == player)
         {
             m_IsPlayerInRange = false;
