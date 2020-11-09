@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Shooter : MonoBehaviour
 {
     private int NumberOfBullets;
+ public Text displayBullets;
+
     
     void Start()
     {
@@ -12,13 +15,13 @@ public class Shooter : MonoBehaviour
     }
     void Update()
     { 
-        print("this is update ");
-        
-        if (Input.GetKey(KeyCode.Space))
+       // print("this is update ");
+            displayBullets.text = NumberOfBullets.ToString();
+        if (Input.GetKeyDown("space") &&  NumberOfBullets > 0 )
         {
-            print("space key was pressed");
+           // print("space key was pressed");
             NumberOfBullets--;
-            print(NumberOfBullets);
+           // print(NumberOfBullets);
         }
     }
 }
