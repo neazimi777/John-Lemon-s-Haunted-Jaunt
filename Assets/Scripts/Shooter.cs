@@ -5,23 +5,35 @@ using UnityEngine.UI;
 
 public class Shooter : MonoBehaviour
 {
-    private int NumberOfBullets;
- public Text displayBullets;
-
-    
+    private int NumberOfBullets  ;
+    public Text displayBullets;
+    public GameObject bullet;
+     private MeshRenderer BulletMeshRen ;
     void Start()
     {
-         NumberOfBullets = 50;
+        NumberOfBullets = 50 ;
+        BulletMeshRen = bullet.GetComponent<MeshRenderer>();
+         BulletMeshRen.enabled  = false;
+       
+     
     }
     void Update()
     { 
-       // print("this is update ");
+          BulletMeshRen.enabled  = false;
+       
             displayBullets.text = NumberOfBullets.ToString();
         if (Input.GetKeyDown("space") &&  NumberOfBullets > 0 )
-        {
-           // print("space key was pressed");
-            NumberOfBullets--;
-           // print(NumberOfBullets);
+        {  BulletMeshRen.enabled  = true;
+           NumberOfBullets--;
+       GameObject instBullet = Instantiate(bullet,transform.position,Quaternion.identity);
+         Rigidbody instBulletRigid = instBullet.GetComponent<Rigidbody>();
+          
+          instBulletRigid.AddForce(Vector3.forward * 100f ,ForceMode.Impulse);
+            Destroy(instBullet, 0.1f );
         }
+          
+        
     }
+
+     
 }

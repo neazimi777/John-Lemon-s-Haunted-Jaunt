@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     void Start ()
     {
         m_Animator = GetComponent<Animator> ();
+
         m_Rigidbody = GetComponent<Rigidbody> ();
         m_AudioSource = GetComponent<AudioSource>();
     }
@@ -30,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
         bool hasHorizontalInput = !Mathf.Approximately (horizontal, 0f);
         bool hasVerticalInput = !Mathf.Approximately (vertical, 0f);
         bool isWalking = hasHorizontalInput || hasVerticalInput;
+        
+            
         m_Animator.SetBool ("IsWalking", isWalking);
          if (isWalking)
          {

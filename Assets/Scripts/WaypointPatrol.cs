@@ -9,7 +9,8 @@ public class WaypointPatrol : MonoBehaviour
     int m_CurrentWaypointIndex;
 
     void Start()
-    {
+    {        
+
         navMeshAgent.SetDestination(waypoints[0].position);
     
     }
