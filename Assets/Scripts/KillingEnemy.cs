@@ -4,26 +4,28 @@ using UnityEngine;
 using UnityEngine.UI;
 public class KillingEnemy : MonoBehaviour
 {
-    public GameObject bullet;
     public Image frontGround;
 
-    void Start()
-    { 
+     public GameObject bullet;
 
-     } 
+   
 
 
-    void Update()
-    {
-        void OnTriggerEnter (Collider other)
-      {
-        if (other.gameObject == bullet)
+void OnTriggerEnter (Collider other)
+{ 
+        if (other.gameObject.tag == "bullet")
          {
-            frontGround.fillAmount -= 0.33f ;
-           print (frontGround.fillAmount);
+            
+             frontGround.fillAmount -= 0.25f;
+             
+             
          }
 
-       }
-    }
+        if (frontGround.fillAmount==0)
+            {
+                   Destroy(gameObject);
+               
+            }
+  
+}  
 }
-    

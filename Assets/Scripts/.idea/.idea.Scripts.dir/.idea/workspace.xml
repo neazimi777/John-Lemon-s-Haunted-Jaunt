@@ -20,17 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f44e871e-ca3a-490d-9e02-bd34fdeb214a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Animation/Animators/JohnLemon.controller" beforeDir="false" afterPath="$PROJECT_DIR$/../Animation/Animators/JohnLemon.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prefabs/Environment/Corridors/Wall_Straight_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Environment/Corridors/Wall_Straight_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prefabs/Environment/Corridors/Wall_Straight_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Environment/Corridors/Wall_Straight_02.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Prefabs/Gargoyle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Gargoyle.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Prefabs/Ghost.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Ghost.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prefabs/bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/bullet.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEnding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameEnding.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KillingEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KillingEnemy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Observer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Observer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shooter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shooter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WaypointPatrol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WaypointPatrol.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/displayBullets.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/displayBullets.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/../../../../New Unity Project/Assets/SpeedTutor Tutorial Scripts Package/Scripts/Slow_Down_Video/play.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Observer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../New Unity Project/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/t.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/KillingEnemy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KillingEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GameEnding.cs" root0="FORCE_HIGHLIGHTING" />
@@ -51,13 +56,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GameEnding.cs" />
         <option value="$PROJECT_DIR$/../../../../New Unity Project/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/test.cs" />
-        <option value="$PROJECT_DIR$/Observer.cs" />
         <option value="$PROJECT_DIR$/WaypointPatrol.cs" />
         <option value="$PROJECT_DIR$/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/KillingEnemy.cs" />
+        <option value="$USER_HOME$/Desktop/KillingEnemy.cs" />
+        <option value="$PROJECT_DIR$/GiveAward.cs" />
+        <option value="$PROJECT_DIR$/GameEnding.cs" />
+        <option value="$PROJECT_DIR$/Observer.cs" />
         <option value="$PROJECT_DIR$/Shooter.cs" />
+        <option value="$PROJECT_DIR$/KillingEnemy.cs" />
       </list>
     </option>
   </component>
@@ -112,6 +119,15 @@
       <workItem from="1605771616719" duration="11062000" />
       <workItem from="1605950244065" duration="7753000" />
       <workItem from="1606029733730" duration="6366000" />
+      <workItem from="1606039605428" duration="10751000" />
+      <workItem from="1606220971384" duration="1339000" />
+      <workItem from="1606314977709" duration="637000" />
+      <workItem from="1606402208517" duration="6845000" />
+      <workItem from="1606463881957" duration="8993000" />
+      <workItem from="1606476762944" duration="15794000" />
+      <workItem from="1606541077183" duration="5434000" />
+      <workItem from="1606636606840" duration="17734000" />
+      <workItem from="1606724085361" duration="1246000" />
     </task>
     <servers />
   </component>
@@ -144,17 +160,5 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604062799569" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/GameEnding.cs</url>
-          <line>72</line>
-          <properties documentPath="D:\unity\John Lemon’s Haunted Jaunt\Assets\Scripts\GameEnding.cs" initialLine="61" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -17,12 +17,12 @@ public class GameEnding : MonoBehaviour
 public AudioSource caughtAudio;
 bool m_HasAudioPlayed;
 
-    void OnTriggerEnter (Collider other)
-      {
-        if (other.gameObject == player)
+   void OnTriggerEnter (Collider other)
+     {
+      if (other.gameObject == player)
          {
            m_IsPlayerAtExit = true;
-         }
+        }
 
        }
     public void CaughtPlayer ()
