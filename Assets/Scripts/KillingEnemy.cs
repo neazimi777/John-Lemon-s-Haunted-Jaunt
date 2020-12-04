@@ -18,7 +18,7 @@ void OnTriggerEnter (Collider other)
             
              frontGround.fillAmount -= 0.25f;
              
-             
+            // Debug.Log(" frontGround.fillAmount" +  frontGround.fillAmount);
          }
 
         if (frontGround.fillAmount==0)

@@ -21,6 +21,7 @@ bool m_HasAudioPlayed;
      {
       if (other.gameObject == player)
          {
+           // print("ontriggerenrer");
            m_IsPlayerAtExit = true;
         }
 

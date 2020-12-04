@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 680, y: 342}
   m_MaxSize: {x: 12005, y: 8042}
   vertical: 0
-  controlID: 127
+  controlID: 63
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 400
     height: 717
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -295,10 +295,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 323.2
+    x: 388
     y: 80.8
-    width: 740
-    height: 387
+    width: 739
+    height: 390
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
@@ -338,14 +338,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.29341698
+    - e00: 0.6548738
       e01: 0
       e02: 0
-      e03: 113.22275
+      e03: 44.19229
       e10: 0
-      e11: 0.29341698
+      e11: 0.6548738
       e12: 0
-      e13: 30.734934
+      e13: 124.639626
       e20: 0
       e21: 0
       e22: 1
@@ -355,10 +355,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 36b2dff45ca92f646981011217bc7f95,
+  m_AnimatorController: {fileID: 9100000, guid: 28793bda4baea884aa1233e1bd3f5b37,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 7153176123968380078, guid: 36b2dff45ca92f646981011217bc7f95,
+  - m_Target: {fileID: 3011589612367841588, guid: 28793bda4baea884aa1233e1bd3f5b37,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -437,34 +437,34 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts
   m_ViewMode: 1
-  m_StartGridSize: 96
+  m_StartGridSize: 90
   m_LastFolders:
-  - Assets/Prefabs
-  m_LastFoldersGridSize: 96
+  - Assets/Scripts
+  m_LastFoldersGridSize: 90
   m_LastProjectPath: "D:\\unity\\John Lemon\u2019s Haunted Jaunt\\John-Lemon-s-Haunted-Jaunt"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 62d70200
-    m_LastClickedID: 186210
-    m_ExpandedIDs: 000000003c5b00003e5b0000405b0000425b00005cd7020000ca9a3b
+    scrollPos: {x: 0, y: 43}
+    m_SelectedIDs: 165c0000
+    m_LastClickedID: 23574
+    m_ExpandedIDs: 00000000465b0000485b00004a5b00004c5b00000e5c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Prefabs
-      m_OriginalName: Prefabs
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 186210
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -478,7 +478,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c5b00003e5b0000405b0000425b0000
+    m_ExpandedIDs: 00000000465b0000485b00004a5b00004c5b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -503,10 +503,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 9419ffff
-    m_LastClickedInstanceID: -58988
+    m_SelectedInstanceIDs: de2f0000
+    m_LastClickedInstanceID: 12254
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000a651010054410000
+    m_ExpandedInstanceIDs: c6230000a651010054410000d25b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -531,7 +531,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 96
+    m_GridSize: 90
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 193
 --- !u!114 &15
@@ -600,24 +600,24 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 588}
-      m_SelectedIDs: 9419ffff
-      m_LastClickedID: -58988
-      m_ExpandedIDs: c2e1ffffc6e1ffffcce1ffffd0e1ffffd4e1ffffd6e1ffffe0e1ffffe4e1fffff0e1fffff2e1fffff6e1fffffae1fffffce1fffffee1ffff00e2ffff02e2ffff04e2ffff06e2ffff08e2ffff0ae2ffff0ce2ffff34fbffff043a0000603a0000a03a0000d23a0000123b0000
+      scrollPos: {x: 0, y: 639}
+      m_SelectedIDs: 6a3a0000
+      m_LastClickedID: 14954
+      m_ExpandedIDs: 9c95ffff92b0ffffd2e1ffffd6e1ffffdce1ffffe0e1ffffe2e1ffffe4e1ffffeee1fffff2e1fffffee1ffff00e2ffff04e2ffff08e2ffff0ae2ffff0ce2ffff0ee2ffff10e2ffff12e2ffff14e2ffff16e2ffff18e2ffff1ae2ffff34fbffff023a0000a83a0000da3a0000fc3a00001a3b00002a400200ce400200b4410200104202002e420200ae43020050480200124d02008e4e0200c04f0200ea500200f4500200305102006c530200d6530200105402005e540200e85402002a5502002e5502007656020006580200dc5802003c590200645902008e5a0200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Gargoyle (1)
+        m_OriginalName: Gargoyle (1)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 15004
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -663,9 +663,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -8.822794, y: 0.7199726, z: -2.7365105}
+    m_Target: {x: 7.4, y: 0.57568455, z: -2.065771}
     speed: 2
-    m_Value: {x: -8.822794, y: 0.7199726, z: -2.7365105}
+    m_Value: {x: 7.4, y: 0.57568455, z: -2.065771}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -711,13 +711,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.044530943, y: 0.95367366, z: 0.17827322, w: -0.23822701}
+    m_Target: {x: -0.31532207, y: 0.5167322, z: -0.2124058, w: -0.7671065}
     speed: 2
-    m_Value: {x: 0.044530727, y: 0.953669, z: 0.17827235, w: -0.23822585}
+    m_Value: {x: -0.31532073, y: 0.51673, z: -0.21240489, w: -0.7671032}
   m_Size:
-    m_Target: 0.09996605
+    m_Target: 1.8183612
     speed: 2
-    m_Value: 0.09996605
+    m_Value: 1.8183612
   m_Ortho:
     m_Target: 0
     speed: 2

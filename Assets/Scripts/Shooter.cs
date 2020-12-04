@@ -30,8 +30,11 @@ public class Shooter : MonoBehaviour
            NumberOfBullets--;
            GameObject instBullet = Instantiate(bullet,transform.position,Quaternion.identity);
            Rigidbody instBulletRigid = instBullet.GetComponent<Rigidbody>();
-         
-         instBulletRigid.AddForce(player.transform.forward * 1000f ,ForceMode.Force);
+
+         //  disableKinematic();
+
+
+         instBulletRigid.AddForce(player.transform.forward * 10f ,ForceMode.Force);
         
             Destroy(instBullet, 1.0f );
 
@@ -52,6 +55,12 @@ public class Shooter : MonoBehaviour
           
         
     }
+     void disableKinematic()
+     { 
+        print ("disableKinematic");
+         Rigidbody playerRigidbody = player.GetComponent<Rigidbody> ();
+         playerRigidbody.isKinematic = true;
+     }
 
      
 }
